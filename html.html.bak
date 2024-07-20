@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Sample</title>
+</head>
+<body>
+    <h1> HTML: </h1>  <!-- comment --> html paragraph
+	<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <b>HTML</b> (hyper text markup language)is a language to represent the content in the website. &nbsp IT creates the <strong>structure</strong> for the website. &nbsp HTML stands for <i>Hyper Text Markup Language</i>. HTML <em>is the standard markup language for creating Web pages</em>. <mark>HTML describes the structure of a Web page</mark>. <small>HTML consists of a series of elements</small>. <del>HTML does not elements tell the browser how to display the content. </del>&nbsp HTML stands for <ins>Hyper Text Markup Language</ins>
+HTML <sub>is the standard markup language for creating Web pages</sub>
+HTML <sup>describes the structure of a Web page </sup>
+<b>HTML </b>consists of a <i>series of elements</i>
+HTML elements tell the browser how to <em>display the content </em>
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.<b> - To know more about html</b> - <a href="https://www.w3schools.com/html/html_intro.asp#:~:text=HTML%20stands%20for%20Hyper%20Text,how%20to%20display%20the%20content"> Click here </a> </p>
+
+<h1> CSS: </h1> <!-- comment --> css paragraph
+	<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these <b>“cascading style sheets” </b>which are equally called CSS files (. css). &nbsp CSS stands for <i>Cascading Style Sheets</i>
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in <b>CSS </b>files <b> -To know more about CSS</b> - <a href="https://www.w3schools.com/css/css_intro.asp"> click here </a></p>
+
+<h1> JAVA SCRIPT: </h1> <!-- comment --> Java script paragraph
+	<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.). &nbsp JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+ <b> -To know more about Java script</b> - <a href="https://www.w3schools.com/whatis/whatis_js.asp"> click here </a></p>
+     
+</body>
+</html>
