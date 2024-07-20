@@ -1,0 +1,232 @@
+
+None selected 
+
+Skip to content
+Using Gmail with screen readers
+ashleyjosephalen@gmail.com 
+Conversations
+
+Ashley Joseph Alen
+ashleyjosephalen@gmail.com
+ashleyjosephalen@gmail.com. Press Tab to insert.
+<html>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap 5 Modal</title>
+      <style>
+        .modal-header {
+            background: blue;
+            color: #fff;
+        }
+        
+        .required:after {
+            content: "*";
+            color: red;
+        }
+    </style>
+    <head>
+
+        <title></title>
+        <style type="text/css">
+        textarea {
+         width: 300px;
+         height: 100px;
+         background-color: white;
+         font-size: 1em; 
+         font-weight: bold;
+         font-family: Verdana, Arial, Helvetica, sans-serif;
+         border: 1px solid black;
+         text-align: center;
+         font-size: 18px; 
+        }
+        </style>
+        </head>
+        <body>
+            <script>  
+              function disableqtns() {   
+                  
+              var elems = document.getElementsByTagName('input');
+              var len = elems.length;
+       
+                for (var i = 0; i < len; i++) {
+                     elems[i].disabled = true;
+       }
+           
+            }
+            var score =0;
+
+
+
+
+
+            function endofpage() { alert("YOUR time up...  bye.... \n\n\n\t   BETTER LUCK  NEXT TIME.")
+                             window.close(); }
+
+
+
+
+
+      function chkans() {  
+            if(document.getElementById('correct1').checked) { 
+                score = Number(document.getElementById("correct1").value) 
+                    + Number(score); 
+                    document.getElementById("answer").value = score;  
+            } 
+            
+            if(document.getElementById('correct2').checked) { 
+                score = Number(document.getElementById("correct2").value) 
+                    + Number(score); 
+                    document.getElementById("answer").value = score;
+            } 
+            if(document.getElementById('correct3').checked) { 
+                score = Number(document.getElementById("correct3").value) 
+                    + Number(score); 
+                    document.getElementById("answer").value = score;
+            } 
+            if(document.getElementById('correct4').checked) { 
+                score = Number(document.getElementById("correct4").value) 
+                    + Number(score); 
+                    document.getElementById("answer").value = score;
+            }
+            if(document.getElementById('correct5').checked) { 
+                score = Number(document.getElementById("correct5").value) 
+                    + Number(score); 
+                    document.getElementById("answer").value = score;  
+            }
+  
+    score=0;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+var timeleft = 50;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+    document.getElementById("countdown").innerHTML = "Finished";
+    endofpage();
+  } else {
+    document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
+  }
+  timeleft -= 1;
+}, 1000);
+
+</script> 
+<form>   
+    <marquee  behavior="alternate" bgcolor = blue scrollamount = 15  >
+
+       <marquee behavior=alternate>
+      
+   <p><font size="15" color="white">ONLINE TEST INTERFACE DESIGNING</font></p>
+   </marquee> 
+   </marquee>
+   <style>
+    div {
+      text-align: center;
+    }
+  </style>
+  <div><img src="not.gif" alt="TIME EXIST" align="center" style="width:110px;height:48px;"> </div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<div align="center"  id="countdown"></div>     
+  <fieldset id="myFieldset"> <P>1. What is primary memory ?<BR><BR>&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="correct1" name="1.The word which means house is" value="1">RAM
+          <input type="radio" name="1.The word which means house is" value="quatre">ROM
+          <input type="radio" name="1.The word which means house is" value="soleil">HARDDISK
+          <input type="radio" name="1.The word which means house is" value="poisson">EPROM<BR>
+          </p>
+          
+          <P>2. The word POLY  means:<BR><BR>&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="correct2" name="2. The word which means fish is" value="1">many
+          <input type="radio"  name="2. The word which means fish is" value="valise">few
+          <input type="radio" name="2. The word which means fish is" value="soleil">single
+          <input type="radio" name="2. The word which means fish is" value="poisson">double<BR>
+          </p>
+
+          <P>3. What  is OS ?:<BR><BR> &nbsp;&nbsp;&nbsp;
+          <input type="radio" id="correct3" name="3. The word which means suitcase is" value="1">OPERATING SYSTEM
+          <input type="radio" name="3. The word which means suitcase is" value="valise">OPERATION SYSTEM
+          <input type="radio" name="3. The word which means suitcase is" value="soleil">OPERATION SIGNAL
+          <input type="radio" name="3. The word which means suitcase is" value="poisson">OPERATION SIGNALLING
+        </p>
+         <p>4. What is the extension of python file ?</p> &nbsp;&nbsp;&nbsp;
+      <input type="radio" id="correct4" name="4th" value="1">
+      <label for="email">.py</label>&nbsp;&nbsp;&nbsp;
+
+      <input type="radio" id="phone" name="4th" value="0">
+      <label for="phone">.Pyth</label>&nbsp;&nbsp;&nbsp;
+
+      <input type="radio" id="mail" name="4th"value="0">
+      <label for="mail">.python</label>&nbsp;&nbsp;&nbsp;
+  <br>
+  
+      <p>5. What is the only one even prime Number ?</p> &nbsp;&nbsp;&nbsp;
+      <input type="radio" id="correct5" name="5th" value="1">
+      <label for="email">2</label>
+
+      <input type="radio" id="phone1" name="5th" value="0">
+      <label for="phone">6</label>
+
+      <input type="radio" id="mail1" name="5th" value="0">
+      <label for="mail">18</label>
+  
+  <div class="container mt-5">
+  <input class="btn btn-primary" type ="button" onclick="disableqtns()" value="CONFIRM">
+  <input class="btn btn-primary" type="reset" value="RESET_ANSWERS">  
+  <button onclick="chkans()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" align="center">SCORE</button>
+</fieldset>
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">YOUR SCORE</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    
+                    <div class="mb-3">
+                        <label  class="form-label required"></label>
+                        <textarea id="answer" class="form-control"></textarea>
+                    </div>
+                </form>
+            </div>
+      
+        </div>
+    </div>
+</div>
+</div>
+
+</fieldset>
+</form>
+</body>
+
+
+</html> 
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+</html>
+Online test interface.html
+Displaying Online test interface.html.
